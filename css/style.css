@@ -1,0 +1,279 @@
+*,*::after,*::before{
+    padding: 0;
+    margin: 0;
+}
+body{
+    /* height: 2000px; */
+    margin: auto;
+}
+.container{
+    width:1100px;
+    margin: auto;
+
+}
+.header{
+  width:100%;
+  height: 350px;
+  background-image: url("../image/overlay.png");
+  overflow: hidden;
+  background-color: rgba(79, 53, 102, 0.85);
+  padding-top: 120px;
+
+}
+.header .heading{
+  width: 49%;
+  float: left;
+  margin-top: 50px;
+ 
+}
+.header .heading h2{
+  width:48%;
+  color:white;
+  line-height: 1.4;
+}
+.header .heading h2 span{
+     transition: 0.5s all ease-in-out;
+}  
+.header .heading h2:hover span{
+    color:rgba(77, 223, 223, 0.5);
+    cursor: pointer;
+}
+.header .heading-cont{
+    width: 48%;
+    float: right;
+     border-left: 2px solid white;
+    margin-top: 50px;
+    
+     padding-left: 2%;
+}
+.header .heading-cont p{
+    color:rgba(255, 255, 255, 0.761);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+}
+.header .heading-cont button,.magna .magna-cont button,
+.pharetra .pharetra-block .pharetra-txt button,
+.contactus .c_Inputs button{
+    margin-top: 20px;
+    padding: 15px 30px;
+    background-color:rgb(50 144 144 / 82%);
+    border-radius: 25px;
+    border: none;
+ transition: 0.5s all ease-in-out;
+}
+.header .heading-cont button a,.magna .magna-cont button a,
+.pharetra .pharetra-block .pharetra-txt button a,
+.contactus .c_Inputs button a{
+    text-decoration: none;
+    color:white;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.5s all ease-in-out;
+    outline: none;
+    text-transform: uppercase;
+}
+/* .header .heading-cldont button:hover a{
+    
+    color:rgba(77, 223, 223, 0.816);
+} */
+/* .header .heading-cont button:hover{
+    background-color:white
+} */
+.magna{
+    width:100%;
+    height: 250px;
+    overflow: hidden;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    border-bottom: 2px solid rgba(29, 28, 28, 0.398);
+}
+.magna .magna-cont{
+    width: 50%;
+    float: left;
+    border-right: 2px solid rgba(29, 28, 28, 0.398);
+}
+.magna .magna-cont h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:#777;
+    padding-bottom: 10px;
+    text-decoration: underline;
+}
+.magna .magna-cont p{
+    font-family: Arial, Helvetica, sans-serif;
+     color:#888;
+     line-height: 1.8;
+}
+/* .magna .magna-cont button {
+  background-color:rgb(77, 223, 223);
+} */
+
+.magna .magna-list{
+    width: 46%;
+    float: right;
+    visibility: hidden;
+    padding-left: 3%;
+    /* display: none; */
+}
+
+
+.magna .magna-list p{
+    padding: 10px 5px;
+    line-height: 1.5;
+     color:#666;
+     font-family: Arial;
+     font-weight: bold;
+
+}
+.magna .magna-list .fa{
+    color:rgb(50 144 144 / 82%);
+    transition: 0.5s all ease-in-out;
+    padding-right: 5px;
+}
+.magna .magna-list p:hover .fa{
+    color: rgba(79, 53, 102, 0.85);
+    cursor: pointer;
+}
+
+.pharetra{
+   height: 1100px;
+   padding-top: 50px;
+   padding-bottom: 50px;
+   background-color:rgb(128 128 128 / 22%)
+} 
+.pharetra .pharetra-block{
+   width: 100%;
+   overflow: hidden;
+   height: 400px;
+}
+.pharetra .pharetra-block .pharetra-img1,
+.pharetra .pharetra-block .pharetra-img2,
+.pharetra .pharetra-block .pharetra-img3{
+  width: 40%;
+  float: left;
+  height: 80%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-right: 5%;
+  border-radius:20px;
+}
+.pharetra .pharetra-block .pharetra-img1{
+   background-image:url("../image/pic01.jpg");  
+}
+.pharetra .pharetra-block .pharetra-img2{
+   background-image:url("../image/pic02.jpg");  
+}
+.pharetra .pharetra-block .pharetra-img3{
+   background-image:url("../image/pic03.jpg");  
+}
+
+
+.pharetra .pharetra-block .pharetra-txt{
+ width: 55%;
+ float: left;
+ padding-top: 50px;
+}
+
+.pharetra .pharetra-block .pharetra-txt h2{
+   color:#777;
+   padding-bottom: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: underline;
+} 
+
+.pharetra .pharetra-block .pharetra-txt p{
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+   color:#888;
+   font-weight: bold;
+}
+
+.pharetra .pharetra-block .pharetra-txt button{
+
+}
+.contactus{
+    width:100%;
+     height:600px;
+    overflow: hidden;
+    padding:50px 0;
+    border-bottom: 2px solid rgba(29, 28, 28, 0.398);
+    /* background-color:red; */
+
+}
+.contactus .c_Inputs{
+   width:47%;
+   float: left;
+   height:550px;
+   margin-top: 20px;
+   border-right: 2px solid rgba(29, 28, 28, 0.398);
+
+}
+.contactus .c_Inputs h2{
+color:#777;
+ padding-bottom: 15px;
+   font-family: Arial, Helvetica, sans-serif;
+   text-decoration: underline;
+   font-size: 30px;
+}
+.contactus .c_Inputs p{
+    line-height: 1.8;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color:#888;
+    font-size: 20px;
+}
+.contactus .c_Inputs form{
+    
+}
+.contactus .c_Inputs form textarea{
+        width: 470px;
+          padding:5px;
+          font-size:20px
+}
+
+.contactus .c_Inputs form input[type=text],
+.contactus .c_Inputs form input[type=email]{
+    width:225px;
+    height: 50px;
+    padding:5px;
+    margin: 10px 0;
+    font-size:15px;
+
+}
+.contactus .c_Links{
+    width: 46%;
+    float: left;
+    height:500px;
+    margin-top: 20px;
+    margin-left: 4%;
+    padding-top:5%;
+}
+.contactus .c_Links p{
+    padding-bottom: 5%;
+    font-size: 20px;
+    color:#777;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contactus .c_Links p i{
+    padding-right: 5%;
+    color:rgba(77, 223, 223, 0.9);
+}
+/* .contactus .c_Links p:hover i{
+    color: rgba(79, 53, 102, 0.85);
+    cursor: pointer;
+} */
+
+div.footer{
+    text-align: center;
+    width:100%;
+    height: 50px;
+    padding: 50px 0 30px;
+    line-height: 50px;
+}
+div.footer p{
+    color:#888;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
